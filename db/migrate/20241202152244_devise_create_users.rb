@@ -19,7 +19,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[7.1]
       t.string :provider
 
       ## Database authenticatable
-      t.string :authentication_token, unique: true
+      t.string :authentication_token
 
       ## Recoverable
 
